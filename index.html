@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>소프트웨어 개발자 소개</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <script>
+      // 파일 탐색기에서 프로젝트 루트의 index.html을 직접 더블클릭했을 때 dist/index.html로 자동 안내
+      if (window.location.protocol === 'file:' && !window.location.href.includes('/dist/')) {
+        window.location.replace('./dist/index.html');
+      }
+    </script>
+  </head>
+  <body class="bg-[#0f1115] text-[#d4d4d8] font-sans antialiased selection:bg-[#a3e635]/20 selection:text-[#a3e635]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
