@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Noto Sans KR"', 'sans-serif'],
+        sans: ['"SeoulNamsan"', '"Seoul Namsan"', 'sans-serif'],
       },
       colors: {
         ink: {
